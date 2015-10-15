@@ -16,7 +16,7 @@ Good morning! Morgenbot is a [Slack](https://slack.com/) standup bot. ☕
     heroku logs
     ```
 4. Set up some config variables using `heroku config:set VARIBLE=value`:
-   - `TOKEN`: your team's Slack API token. (required)
+   - `TOKEN`: your team's [Slack API token](https://api.slack.com/web) (required)
    - `USERNAME`: your bot's username. (optional; defaults to `'morgenbot'`)
    - `ICON_EMOJI`: the emoji used in the bot's icon. (optional; defaults to `':coffee:'`)
    - `CHANNEL`: the channel in which you stand up. (optional; defaults to `'#standup'`)
